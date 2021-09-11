@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/logo45.png">
+  <link href="estilos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <title>Brasa Loca</title>
+</head>
+
+<body>
+
+  <!-- BARRA DE NAVEGACION -->
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand iconT" href="#"><img class="icon" src="img/logo64.png" alt="">Brasa Loca</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Product">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Pedido">Pedidos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contaienr-fluid m-1">
+
+    <!-- CARRUSEL -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Hamburguesa clasica.jpg" class="imgC d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/ComboHamburguesa_Papas.jpg" class="imgC d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/burguer.jpg" class="imgC d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span id="procu" class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- PRODUCTOS -->
+
+    <div class="row mt-4 mb-2">
+
+      <div>
+        <h2 id="Product" class="titulo">Productos</h2>
+      </div>
+
+      <div class="col-12 col-xxl-3 col-lg-4 col-md-6 col-sm-12 p-1">
+        <div class="productos card mx-auto m-0">
+          <img src="img/Hamburguesa clasica.jpg" class="card-img-top imgP" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Combo hamburguesa Clásica</h5>
+            <h6 class="card-subtitle mb-2">$13.000</h6>
+            <p class="card-text textCard">Deleita tu paladar con nuestra hamburguesa clasica, incluye papas y gaseosa.
+            </p>
+            <a class="btnProct" href="#1"><button type="button" class="btn btn-dark">Pedir</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xxl-3 col-lg-4 col-md-6 col-sm-12 p-1">
+        <div class="productos card mx-auto m-0">
+          <img src="img/ComboHamburguesa_Papas.jpg" class="card-img-top imgP" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Combo hamburguesa Doble</h5>
+            <h6 class="card-subtitle mb-2">$18.000</h6>
+            <p class="card-text textCard">Perfecta para compartir o simplemente darte un antojo, incluye papas y
+              gaseosa.</p>
+            <a class="btnProct" href="#2"><button type="button" class="btn btn-dark">Pedir</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xxl-3 col-lg-4 col-md-6 col-sm-12 p-1">
+        <div class="productos card mx-auto">
+          <img src="img/hotdog.jpg" class="card-img-top imgP" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Combo perro caliente</h5>
+            <h6 class="card-subtitle mb-2">$10.000</h6>
+            <p class="card-text textCard">Pan suave y salchicha de la mejor calidad, incluye papas y gaseosa.</p>
+            <a class="btnProct" href="#3"><button type="button" class="btn btn-dark">Pedir</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xxl-3 col-lg-4 col-md-6 col-sm-12 p-1">
+        <div class="productos card mx-auto">
+          <img src="img/Pizza.jpg" class="card-img-top imgP" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Porción de pizza</h5>
+            <h6 class="card-subtitle mb-2">$8.000</h6>
+            <p class="card-text textCard">Masa suave y mucho queso mozzarella, escoge tu sabor favorito.</p>
+            <a class="btnProct" href="#4"><button type="button" class="btn btn-dark">Pedir</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xxl-3 col-lg-4 col-md-6 col-sm-12 p-1">
+        <div class="productos card mx-auto">
+          <img src="img/Malteadas.jpg" class="card-img-top imgP" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Malteada</h5>
+            <h6 class="card-subtitle mb-2">$8.000</h6>
+            <p class="card-text textCard">Perfecta para refrescarte y tomar algo delicioso.</p>
+            <a class="btnProct" href="#5"><button type="button" class="btn btn-dark">Pedir</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xxl-3 col-lg-4 col-md-6 col-sm-12 p-1">
+        <div class="productos card mx-auto">
+          <img src="img/Gaseosa.jpg" class="card-img-top imgP" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Gaseosa</h5>
+            <h6 class="card-subtitle mb-2">$3.000</h6>
+            <p class="card-text textCard">Perfecta para acompañar tus antojitos.</p>
+            <a class="btnProct" href="#6"><button type="button" class="btn btn-dark">Pedir</button></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PEDIDOS -->
+
+    <div>
+      <h2 id="Pedido" class="titulo">Realizar pedido</h2>
+    </div>
+
+    <!-- INICIO FORMULARIO -->
+
+    <form action="factura.php" method="POST">
+
+      <div>
+        <h3 class="ps-2 pt-4">Datos de Facturación</h3>
+      </div>
+      <div class="row mb-3 p-3">
+        <div class="col-12 col-xxl-4 col-lg-4 col-sm-6 p-1">
+          <label for="disabledTextInput" class="form-label"><b>Nombre</b></label>
+          <input type="text" class="form-control" name="formNombre" required>
+        </div>
+
+        <div class="col-12 col-xxl-4 col-lg-4 col-sm-6 p-1">
+          <label for="disabledTextInput" class="form-label"><b>Telefono</b></label>
+          <input type="number" class="form-control" name="formTelefono" required>
+        </div>
+
+        <div class="col-12 col-xxl-4 col-lg-4 col-sm-6 p-1">
+          <label for="disabledTextInput" class="form-label"><b>Dirección</b></label>
+          <input type="text" class="form-control" name="formDireccion" required>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="ps-2 pt-1">Productos</h3>
+      </div>
+
+      <!-- PRODUCTOS SIN SABORES -->
+
+      <div id="1" class="row mb-3 p-3 contenedorProductos rounded">
+        <div class="col-12 col-xxl-4 col-lg-6 col-sm-12 productosT mt-1 mb-1">
+          <div class="row">
+            <div class="col-4">
+              <div class="text-center"><img src="img/HambPapasGaseosa.png">
+                <label for="disabledTextInput" class="form-label"><b>Combo hamburguesa<br>Clásica</b></label>
+              </div>
+            </div>
+            <div class="col-8 flex">
+              <div class="row p-4">
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 text-center">
+                  <h4 class="">Cantidad</h4>
+                </div>
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 w-50 text-center">
+                  <input type="number" class="form-control w-50" name="formCantComboHambClas">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="2" class="col-12 col-xxl-4 col-lg-6 col-sm-12 productosT mt-1 mb-1">
+          <div class="row">
+            <div class="col-4">
+              <div class="text-center"><img src="img/HamDoble.png">
+                <label for="disabledTextInput" class="form-label"><b>Combo hamburguesa<br>Doble</b></label>
+              </div>
+            </div>
+            <div class="col-8 flex">
+              <div class="row p-4">
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 text-center">
+                  <h4 class="">Cantidad</h4>
+                </div>
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 w-50 text-center">
+                  <input type="number" class="form-control w-50" name="formCantComboHambDobl">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="3" class="col-12 col-xxl-4 col-lg-6 col-sm-12 productosT mt-1 mb-1">
+          <div class="row">
+            <div class="col-4">
+              <div class="text-center"><img src="img/hotDog.png">
+                <label for="disabledTextInput" class="form-label"><b>Combo perro caliente</b></label>
+              </div>
+            </div>
+            <div class="col-8 flex">
+              <div class="row p-4">
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 text-center">
+                  <h4 class="">Cantidad</h4>
+                </div>
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 w-50 text-center">
+                  <input type="number" class="form-control w-50" name="formCantComboPerro">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCTOS CON SABORES -->
+
+        <div id="4" class="col-12 col-xxl-4 col-lg-6 col-sm-12 productosT mt-1 mb-1">
+          <div class="row">
+            <div class="col-4">
+              <div class="text-center"><img src="img/porcionPizza.png">
+                <label for="disabledTextInput" class="form-label"><b>Porción de pizza</b></label>
+              </div>
+            </div>
+            <div class="col-8 flex">
+              <div class="row p-4">
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 text-center">
+                  <h4 class="">Cantidad</h4>
+                </div>
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 w-50 text-center">
+                  <input type="number" class="form-control w-50" name="formPizza">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 text-center pt-2">
+              <h4 class="">Tipo</h4>
+
+              <div class="row">
+                <div class="col-12 col-xxl-3 col-lg-4 col-sm-12 form-check">
+                  <input type="radio" name="SaborPizza" value="Jamón">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Jamón
+                  </label>
+                </div>
+                <div class="col-12 col-xxl-3 col-lg-4 col-sm-12 form-check">
+                  <input type="radio" name="SaborPizza" value="Hawaiana">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Hawaiana
+                  </label>
+                </div>
+                <div class="col-12 col-xxl-3 col-lg-4 col-sm-12 form-check">
+                  <input type="radio" name="SaborPizza" value="Pepperoni">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Pepperoni
+                  </label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div id="5" class="col-12 col-xxl-4 col-lg-6 col-sm-12 productosT mt-1 mb-1">
+          <div class="row">
+            <div class="col-4">
+              <div class="text-center"><img src="img/malteada.png">
+                <label for="disabledTextInput" class="form-label"><b>Malteada</b></label>
+              </div>
+            </div>
+            <div class="col-8 flex">
+              <div class="row p-4">
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 text-center">
+                  <h4 class="">Cantidad</h4>
+                </div>
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 w-50 text-center">
+                  <input type="number" class="form-control w-50" name="formMalteada">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 text-center pt-2">
+              <h4 class="">Sabor</h4>
+
+              <div class="row">
+                <div class="col-12 col-xxl-3 col-lg-4 col-sm-6 form-check">
+                  <input type="radio" name="SaborMalteada" value="Vainilla">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Vainilla
+                  </label>
+                </div>
+                <div class="col-12 col-xxl-3 col-lg-4 col-sm-6 form-check">
+                  <input type="radio" name="SaborMalteada" value="Chocolate">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Chocolate
+                  </label>
+                </div>
+                <div class="col-12 col-xxl-3 col-lg-4 col-sm-6 form-check">
+                  <input type="radio" name="SaborMalteada" value="Fresa">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Fresa
+                  </label>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div id="6" class="col-12 col-xxl-4 col-lg-6 col-sm-12 productosT mt-1 mb-1">
+          <div class="row">
+            <div class="col-4">
+              <div class="text-center"><img src="img/gaseosa.png">
+                <label for="disabledTextInput" class="form-label"><b>Gaseosa</b></label>
+              </div>
+            </div>
+            <div class="col-8 flex">
+              <div class="row p-4">
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 text-center">
+                  <h4 class="">Cantidad</h4>
+                </div>
+                <div class="col-12 col-xxl-6 col-lg-6 col-sm-6 p-1 w-50 text-center">
+                  <input type="number" class="form-control w-50" name="formGaseosas">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 text-center pt-2">
+              <h4 class="">Sabor</h4>
+
+              <div class="row">
+                <div class="col-12 col-xxl-3 col-lg-4 col-sm-6 form-check">
+                  <input type="radio" name="SaborGaseosa" value="Coca-Cola">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Coca-Cola
+                  </label>
+                </div>
+                <div class="col-12 col-xxl-3 col-lg-4 col-sm-6 form-check">
+                  <input type="radio" name="SaborGaseosa" value="Manzana">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Manzana
+                  </label>
+                </div>
+                <div class="col-12 col-xxl-3 col-lg-4 col-sm-6 form-check">
+                  <input type="radio" name="SaborGaseosa" value="Sprite">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Sprite
+                  </label>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-dark btonPedir fs-3">Ordenar Ya!</button>
+      </div>
+    </form>
+
+    <!-- Footer -->
+
+  </div>
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-2 mb-2">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+        <li class="nav-item"><a href="#Product" class="nav-link px-2 text-muted">Productos</a></li>
+        <li class="nav-item"><a href="#Pedido" class="nav-link px-2 text-muted">Pedido</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2021 Brasa Loca<br> Todos los derechos reservados.<br><br>Devs: Jesus Ortiz & Jonathan Poveda</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

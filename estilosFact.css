@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(241, 230, 209);
+}
+
+.border {
+    background: rgb(209,139,139);
+    background: linear-gradient(114deg, rgba(209,139,139,1) 0%, rgba(126,171,192,1) 100%);
+    border-radius: 20px;
+}
