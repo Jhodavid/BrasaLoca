@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(241, 230, 209);
+}
+
+  .imgC {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .iconT {
+    font-size: 25px;
+  }
+
+  .icon {
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-left: 9px;
+    padding: 2px;
+    background-color: rgb(229, 228, 226);
+    border-radius: 50px;
+  }
+
+  .imgP {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .productos {
+    width: 22rem;
+    padding: 5px;
+  }
+
+  .btnProct {
+    float: right;
+  }
+
+  .titulo {
+    width: 94vw;
+    height: auto;
+    text-align: center;
+    background-color: #300b0b;
+    /* background-color: #dd2424; */
+    padding: 5px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 10px;
+    color: white;
+
+  }
+
+  .cantidad {
+    width: 50px;
+  }
+
+  .textCard{
+    height: 50px;
+  }
+
+  .productosT {
+    padding: 30px;
+    height: 285px;
+    background: rgb(209,139,139);
+    background: linear-gradient(114deg, rgba(209,139,139,1) 0%, rgba(126,171,192,1) 100%);
+    border-radius: 20px;
+  }
+
+  .btonPedir {
+    width: 300px;
+    height: 60px;
+  }
+
+ 
